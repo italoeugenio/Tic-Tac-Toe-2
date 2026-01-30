@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe 2 (F1 - Formula 1 )</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        background-color: #1f1f1f;
+      }
+
+      .title {
+        margin-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 4px;
+        font-style: italic;
+        font-size: 50px;
+        text-shadow: 3px 3px 0px rgb(218, 60, 60); /*EixoX, EixoY, blur(Determina a forma que a sombra vai ficar borrado)*/
+      }
+
+      .menuContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+      }
+
+      .buttonsContainer {
+        gap: 30px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 250px;
+      }
+
+      .buttons {
+        font-family: "Courier New", monospace;
+        background-color: rgb(218, 60, 60);
+        font-size: 30px;
+        color: white;
+        border-radius: 4px;
+        width: 250px;
+        height: 180px;
+        cursor: pointer;
+        text-transform: uppercase;
+        border: none;
+      }
+
+      .buttons:hover {
+        transition: 1;
+        font-family: "Courier New", monospace;
+        background-color: rgb(246, 0, 0);
+        font-size: 30px;
+        color: white;
+        border-radius: 4px;
+        width: 250px;
+        height: 180px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Tic Tac Toe 2 🏎️</h1>
+    <div class="menuContainer">
+      <div class="buttonsContainer">
+        <button class="buttons">Tutorial</button>
+        <button
+          class="buttons"
+          onclick="window.location.href = './game1/index.html'"
+        >
+          Tic Tac Toe 1
+        </button>
+        <button class="buttons">Tic Tac Toe 2</button>
+      </div>
+    </div>
+  </body>
+</html>

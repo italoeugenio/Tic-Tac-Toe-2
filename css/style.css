@@ -1,0 +1,12 @@
+.title{
+    text-align: center;
+}
+
+.players-info{
+    display: flex;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
