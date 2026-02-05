@@ -120,6 +120,7 @@ function restartGame(){
     gameStatus.style.color = "red";
     gameStatus.style.textShadow = "1px 1px 3px white";
     gameStatus.textContent = "Red Bull's turn"
+    sounds[currentPlayer].pause()
     currentPlayer = "X"
     running = true
 }
